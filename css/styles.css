@@ -1,0 +1,106 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *Email→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+
+*/
+
+:root {
+		--cor: #ff2b89;
+}
+* {	
+		margin:0px;
+		padding:0px;
+}
+body {
+		background-color: #eaeaea;
+}
+.flex {
+		display: flex;
+}
+.myCopy {
+		text-align: center;
+		font-size: 1.1rem;
+		color:rgba(0,0,0,0.5);
+		margin-top: 2rem;
+}
+.myCopy span {
+		font-family: cursive;
+		margin-left: 10px;
+}
+
+         /* main */
+main {
+		padding: 20% 1.6rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+main h2 {
+	  text-align: center;
+	  color: var(--cor);
+	  font-size: 3rem;
+	  font-weight: bold;
+	  font-family: quicksand;
+	  margin-bottom: 2rem;
+	  text-shadow: -2px 2px 2px #aaa;
+}
+main .calc {
+		justify-content: center;
+		width: 100%;
+}
+main .calc form {
+		background: #fff;
+		padding: 1rem 10px;
+		width: 20rem;
+		border-radius: 5px;
+		box-shadow: -2px 2px 20px #aaa;
+}
+main .calc input {
+		padding: .8rem .3rem;
+		width: 95%;
+		font-size: 1.6rem;
+		font-family: quicksand;
+		text-align: right;
+		border: 1px solid var(--cor);
+		margin-bottom: 1rem;
+}
+main .calc .btns:nth-child(2) .btn {
+		padding: .4rem 1px;
+		font-size: 1.3rem;
+		width: 23.7%;
+}
+main .calc .btns .btn {
+		width: 25%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: .4rem .6rem;
+		background: var(--cor);
+		border: 1px solid var(--cor);
+		color: #fff;
+		font-size: 1.5rem;
+		font-family: quicksand;
+		margin: .1rem;
+}
+main .calc .btns .igual {
+		background: #fff;
+		color: var(--cor);
+		font-weight: bold;
+}
+.btn:hover, .btn:active, .btn:focus {
+		outline: none;
+}
+
+
+       /* Media Queries */
+
+
+/*          ****Aqui terminou****        */
